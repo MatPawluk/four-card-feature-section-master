@@ -28,18 +28,14 @@
 
   &__card1 {
     border-top: 8px solid $Cyan;
-    grid-area: 1 / 1 / 3 / 2;
   }
   &__card2 {
     border-top: 8px solid $Red;
-    grid-area: 1 / 2 / 2 / 3;
   }
   &__card3 {
     border-top: 8px solid $Orange;
-    grid-area: 2 / 2 / 3 / 3;
   }
   &__card4 {
     border-top: 8px solid $Blue;
-    grid-area: 1 / 3 / 3 / 4;
   }
 }
