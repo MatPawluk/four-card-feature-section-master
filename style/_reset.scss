@@ -1,9 +1,34 @@
+@use "./colors" as *;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  color: $Grayish-Blue;
   font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background-color: $Very-Light-Gray;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+h1,
+h2 {
+  color: $Very-Dark-Blue;
+}
+
+h1 {
+  font-size: 2.9rem;
+}
+
+span {
+  font-weight: 300;
 }

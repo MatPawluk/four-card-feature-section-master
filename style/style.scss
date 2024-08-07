@@ -1,2 +1,20 @@
+//BASE
+
 @use "./colors" as *;
 @use "./reset" as *;
+
+//COMPONETS
+
+@use "./components/card" as *;
+
+// LAYOUT
+
+@use "./layout/header" as *;
+
+// MAIN
+
+@use "./layout/main" as *;
+
+//FOOTER
+
+@use "./layout/footer" as *;
